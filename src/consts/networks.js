@@ -1,5 +1,16 @@
 const networks = [
 	{
+		id: 'ETHPOW',
+		chainId: 10001 ,
+		// rpc: 'https://rpc.xdaichain.com',
+		rpc: 'https://mainnet.ethereumpow.org ',
+		nativeAssetSymbol: 'ETHW',
+		name: 'Ethereum POW',
+		icon: '/resources/networks/gnosis.png',
+		explorerUrl: 'https://mainnet.ethwscan.com',
+		unstoppableDomainsChain: 'ERC20'
+	},
+	{
 		id: 'ethereum',
 		chainId: 1,
 		//rpc: 'https://mainnet.infura.io/v3/3d22938fd7dd41b7af4197752f83e8a1',
